@@ -8,14 +8,16 @@ module.exports = {
   ],
   theme: {
     colors:{
+	    darkblue:"#081349",
 	    blue:"#16247C",
 	    lightblue:"#1285EF",
 	    bgblue:"#F2F0FF",
     },
     extend: {
 	    fontFamily:{
-		    libre: ['"Libre Baskerville"', ...defaultTheme.fontFamily.sans],
-		    garamond: ['"EB Garamond"', ...defaultTheme.fontFamily.sans]
+		    libre: ['"Libre Baskerville"'],
+		    garamond: ['"EB Garamond"'],
+		    inconsolata:['"Inconsolata"'],
 	    },
     },
   },
