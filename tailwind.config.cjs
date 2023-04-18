@@ -18,6 +18,7 @@ module.exports = {
 		    libre: ['"Libre Baskerville"'],
 		    garamond: ['"EB Garamond"'],
 		    inconsolata:['"Inconsolata"'],
+		    roboto:['"Roboto"']
 	    },
     },
   },

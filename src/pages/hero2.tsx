@@ -1,0 +1,19 @@
+import React, { useState } from "react";
+
+export function Hero2() {
+return(
+  <div className=" grid grid-cols-12 gap-5 bg-bgblue">
+    {/* Hero section starts here */}
+    <div className="bg-lightblue h-screen right-0 w-28"></div>
+
+    <div className="col-start-3 col-end-4 mt-52">
+      <div className="flex flex-row ">
+        <p className="font-libre text-darkblue text-4xl">Farofa</p>
+        <div className="w-1 h-28 bg-darkblue"></div>
+        <p className="font-roboto font-bold text-darkblue text-4xl">
+          fullstack, frontend, backend
+        </p>
+      </div>
+    </div>
+  </div>
+  )}
