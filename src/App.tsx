@@ -1,5 +1,5 @@
 import React, { useState, FC } from "react";
-import { randInter } from "./utils/functions";
+import { getRandom } from "./utils/utils";
 import Arrow from "./assets/Arrow.svg";
 import PraçaRamos from "./assets/PraçaRamos.jpg";
 import { Hero1 } from "./pages/hero1";
@@ -13,6 +13,8 @@ function App() {
     return setFolded(!folded);
   }
 
+  let selected = getRandom(0, 2);
+
   function renderRandom(selected: number) {
     switch (selected) {
       case 0:
@@ -24,7 +26,6 @@ function App() {
     }
   }
 
-  let selected = randInter(0, 2);
 
   return (
     <>
