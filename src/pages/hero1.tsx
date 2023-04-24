@@ -10,7 +10,7 @@ export function Hero1() {
     >
       <div className=" grid grid-cols-12 gap-5 bg-bgblue">
         {/* Hero section starts here */}
-        <div className="bg-lightblue h-screen right-0 w-44">
+        <div className="bg-lightblue h-screen right-0 w-32">
           <p className="font-libre text-sm text-bgblue">
             Soluções de webdesign integradas a inteligência de dados e alta
             personalização.
