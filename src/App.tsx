@@ -1,4 +1,5 @@
 import React, { useState, FC } from "react";
+import {motion as m } from 'framer-motion';
 import { getRandom } from "./utils/utils";
 import Arrow from "./assets/Arrow.svg";
 import PraçaRamos from "./assets/PraçaRamos.jpg";
@@ -13,7 +14,7 @@ function App() {
     return setFolded(!folded);
   }
 
-  let selected = getRandom(0, 2);
+  let selected = getRandom(0, 1);
 
   function renderRandom(selected: number) {
     switch (selected) {
@@ -21,8 +22,6 @@ function App() {
         return <Hero1 />;
       case 1:
         return <Hero2 />;
-      case 2:
-        return <Hero3 />;
     }
   }
 
@@ -32,11 +31,15 @@ function App() {
       {!folded ? (
         <>{renderRandom(selected)}</>
       ) : (
-        <div>
-          <div className="bg-darkblue w-64 h-screen right-0 col-start-1 col-end-2">
+        <m.div
+	animate={{y:0}}
+	initial={{y:"100%"}}
+	transition={{delay:0.5,duration:0.5}}
+	>
+          <m.div className="bg-darkblue w-64 h-screen right-0 col-start-1 col-end-2">
             <div className="font-[Inconsolata]">Contato</div>
-          </div>
-        </div>
+          </m.div>
+        </m.div>
       )}
     </>
   );
