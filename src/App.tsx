@@ -21,16 +21,27 @@ function App() {
 
   return (
     <>
-      <>{renderRandom(selected)}</>
-      <m.div
-        animate={{ y: 0 }}
-        initial={{ y: "100%" }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-	className='bg-bgblue'
-      >
-        <div className="bg-darkblue w-56 h-screen right-0 col-start-1 col-end-2">
+      {renderRandom(selected)}
+      <div className="grid grid-cols-12 bg-bgblue">
+        <div className="bg-darkblue w-44 h-screen right-0 col-start-1 col-end-2">
+          <h1 className="font-inconsolata font-black text-center text-3xl text-bgblue ">
+            Projetos
+          </h1>
+          <h2 className=" font-inconsolata font-black text-center text-2xl text-bgblue mt-7">
+            Amazônia
+          </h2>
+          <p className=" font-inconsolata font-bold text-center items-center text-sm text-bgblue mt-7 w-32 ">
+            “Projeto de análise de dados produzida com python, o projeto tem
+            ênfase em demonstrar a importância de data storetelling e
+            conscientização”
+          </p>
         </div>
-      </m.div>
+        <section className="col-start-4 col-end-10 text-center object-center mt-12">
+          <h1 className="font-inconsolata font-black  text-5xl text-darkblue">
+            Valor científico
+          </h1>
+        </section>
+      </div>
     </>
   );
 }

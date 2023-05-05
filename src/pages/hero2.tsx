@@ -21,7 +21,7 @@ export function Hero2() {
 
         <div className="absolute bottom-0 col-start-1 col-end-13 w-full">
           <div className="flex flex-row h-44">
-            <div className="h-full bg-black w-72">
+            <div className="absolute h-full bg-black w-44">
               <p className="font-roboto font-bold text-bgblue  text-justify text-3xl">
                 fullstack, frontend, backend
               </p>
@@ -30,13 +30,11 @@ export function Hero2() {
               <div className="w-full h-1/2 z-10 bg-lightblue " />
               <div className="w-full h-1/2 z-10 bg-bgblue " />
             </div>
-            <div className="h-full bg-black w-72">
-              <div className="flex justify-center items-center w-80 content-center ">
-                <p className="font-libre font-bold text-bgblue text-justify text-1xl w-48">
-                  Soluções de webdesign integrado a inteligência de dados e alta
-                  personalização.
-                </p>
-              </div>
+            <div className="h-full bg-black w-72 flex justify-center items-center align-middle  content-center">
+              <p className="font-libre font-bold text-bgblue text-center align-middle text-1xl w-48 object-center">
+                Soluções de webdesign integrado a inteligência de dados e alta
+                personalização.
+              </p>
             </div>
           </div>
         </div>

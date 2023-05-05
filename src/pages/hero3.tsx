@@ -3,7 +3,9 @@ import { motion as m, useDragControls } from "framer-motion";
 
 export function Hero3() {
   return (
-    <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.75 }}
     >
       <div className=" grid grid-cols-12 gap-5 bg-bgblue">
