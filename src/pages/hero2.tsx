@@ -31,10 +31,13 @@ export function Hero2() {
               <div className="w-full h-1/2 z-10 bg-bgblue " />
             </div>
             <div className="h-full bg-black w-72 flex justify-center items-center align-middle  content-center">
-              <p className="font-libre font-bold text-bgblue text-center align-middle text-1xl w-48 object-center">
+              
+
+	      <p className="font-libre font-bold text-bgblue text-center align-middle text-1xl w-48 object-center">
                 Soluções de webdesign integrado a inteligência de dados e alta
                 personalização.
               </p>
+	      
             </div>
           </div>
         </div>
