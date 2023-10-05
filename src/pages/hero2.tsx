@@ -13,7 +13,11 @@ export function Hero2() {
         {/* Hero section starts here */}
         <div className="col-start-8 col-end-9 mt-52">
           <p className="font-libre text-blue text-7xl">Ícaro Onofre Silva.</p>
-          <div className="h-1 w-80 bg-lightblue" />
+          <div className="flex items-center w-80 h-1 space-x-1">
+            <div className="h-1 w-1 bg-lightblue rounded-full" />
+            <div className="h-1 w-80 bg-lightblue rounded-full" />
+            <div className="h-1 w-1 bg-lightblue rounded-full" />
+          </div>
           <p className="font-libre w-80 text-black text-1xl mt-2">
             - Realizar soluções - desenvolvimento responsável - gerar valor -
           </p>
@@ -21,8 +25,8 @@ export function Hero2() {
 
         <div className="absolute bottom-0 col-start-1 col-end-13 w-full">
           <div className="flex flex-row h-44">
-            <div className="absolute h-full bg-black w-44">
-              <p className="font-roboto font-bold text-bgblue  text-justify text-3xl">
+            <div className="flex items-center justify-center absolute h-full bg-black w-44">
+              <p className="font-roboto font-bold text-bgblue text-justify text-3xl ml-4">
                 fullstack, frontend, backend
               </p>
             </div>
@@ -31,13 +35,10 @@ export function Hero2() {
               <div className="w-full h-1/2 z-10 bg-bgblue " />
             </div>
             <div className="h-full bg-black w-72 flex justify-center items-center align-middle  content-center">
-              
-
-	      <p className="font-libre font-bold text-bgblue text-center align-middle text-1xl w-48 object-center">
+              <p className="font-libre font-bold text-bgblue text-center align-middle text-1xl w-48 object-center">
                 Soluções de webdesign integrado a inteligência de dados e alta
                 personalização.
               </p>
-	      
             </div>
           </div>
         </div>

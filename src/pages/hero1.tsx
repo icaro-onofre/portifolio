@@ -16,20 +16,20 @@ export function Hero1() {
             personalização.
           </p>
           <div className="mt-40 rotate-90 mr-16">
-            <p className="mb-2 text-2xl text-blue font-inconsolata font-bold">Desenvolvedor. </p>
-            <div className="flex items-center self-start font-inconsolata font-bold bg-blue h-11">
-              <p className="text-2xl text-bgblue ml-3">Fullstack</p>
+            <p className="mb-2 text-2xl text-blue font-inconsolata font-black">Desenvolvedor. </p>
+            <div className="flex items-center self-start font-inconsolata font-bold bg-blue h-12 w-44">
+              <p className="text-2xl text-bgblue ml-3 font-black">Fullstack.</p>
             </div>
           </div>
         </div>
 
         <div className="col-start-3 col-end-4">
-          <div className="flex flex-row absolute bottom-10 mt-56 items-center ml-8">
-            <p className=" font-bold font-libre text-blue text-2xl w-16">
+          <div className="flex flex-row absolute bottom-10 mt-56 items-center ">
+            <p className=" font-bold font-libre text-blue text-3xl w-14 mr-16">
               Ícaro Onofre Silva.
             </p>
-            <div className="w-0.5 h-32 bg-blue ml-8" />
-            <p className="font-roboto font-bold text-blue text-2xl w-28 m-3">
+            <div className="w-0.5 h-32 bg-blue" />  {/*Linha azul no meio*/}
+            <p className="font-roboto font-bold text-blue text-3xl w-28 m-3 ">
               fullstack, frontend, backend
             </p>
           </div>
