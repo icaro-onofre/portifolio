@@ -1,4 +1,4 @@
-export function getRandom(min, max) {
+export function getRandom(min:any, max:any) {
   const floatRandom = Math.random()
 
   const difference = max - min

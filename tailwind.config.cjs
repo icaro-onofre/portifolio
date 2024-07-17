@@ -17,10 +17,10 @@ module.exports = {
     },
     extend: {
 	    fontFamily:{
-		    libre: ['"Libre Baskerville"'],
-		    garamond: ['"EB Garamond"'],
-		    inconsolata:['"Inconsolata"'],
-		    roboto:['"Roboto"']
+		    libre: ['Libre Baskerville'],
+		    garamond: ['EB Garamond'],
+		    inconsolata:['Inconsolata'],
+		    roboto:['Roboto']
 	    },
     },
   },

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion as m, useScroll } from "framer-motion";
-import { folded } from "../store";
+//import { folded } from "../store";
 
 export function Hero2() {
   return (
